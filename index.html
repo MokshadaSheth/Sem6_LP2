@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ayurvedic AI Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <h2>🌿 AyurAI</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Natural Healing with Ayurveda</h1>
+  <p>Your AI-powered Ayurvedic assistant for herbs, doshas, and wellness</p>
+  <button onclick="openChat()">Ask the Bot</button>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>What is Ayurveda?</h2>
+  <p>
+    Ayurveda is an ancient Indian system of medicine focused on balancing body, mind, and spirit using natural remedies.
+  </p>
+</section>
+
+<!-- Features -->
+<section id="features" class="features">
+  <h2>What Our AI Can Do</h2>
+  <div class="cards">
+    <div class="card">🌿 Herb Recommendations</div>
+    <div class="card">🧘 Dosha Guidance</div>
+    <div class="card">🍵 Natural Remedies</div>
+  </div>
+</section>
+
+<!-- Chat Button -->
+<div class="chat-button" onclick="toggleChat()">💬</div>
+
+<!-- Chat Window -->
+<div class="chat-container" id="chatContainer">
+
+  <div class="chat-header">
+    Ayurvedic Assistant
+    <span onclick="toggleChat()">✖</span>
+  </div>
+
+  <div class="chat-box" id="chatBox"></div>
+
+  <div class="chat-input">
+    <input id="userInput" placeholder="Ask something..." />
+    <button onclick="sendMessage()">➤</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

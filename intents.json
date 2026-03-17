@@ -1,0 +1,279 @@
+{
+ "intents":[
+
+  {
+   "tag":"greeting",
+   "patterns":[
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good evening",
+    "namaste"
+   ],
+   "responses":[
+    "Hello! I am your Ayurvedic assistant. How can I help you today?",
+    "Namaste! Ask me anything about Ayurveda, herbs, or doshas.",
+    "Welcome! I can help you learn about Ayurvedic health practices."
+   ]
+  },
+
+  {
+   "tag":"goodbye",
+   "patterns":[
+    "bye",
+    "goodbye",
+    "see you",
+    "talk to you later"
+   ],
+   "responses":[
+    "Goodbye! Stay healthy with Ayurveda.",
+    "Take care! Come back if you have more Ayurvedic questions.",
+    "Bye! Wishing you good health."
+   ]
+  },
+
+  {
+   "tag":"about_ayurveda",
+   "patterns":[
+    "what is ayurveda",
+    "explain ayurveda",
+    "tell me about ayurveda",
+    "meaning of ayurveda"
+   ],
+   "responses":[
+    "Ayurveda is an ancient Indian system of medicine that focuses on balancing the body, mind, and spirit.",
+    "Ayurveda is a holistic health system that uses herbs, diet, and lifestyle to maintain balance in the body.",
+    "Ayurveda originated in India over 3000 years ago and focuses on natural healing."
+   ]
+  },
+
+  {
+   "tag":"vata",
+   "patterns":[
+    "what is vata",
+    "explain vata dosha",
+    "vata dosha meaning",
+    "tell me about vata"
+   ],
+   "responses":[
+    "Vata dosha represents air and space elements and controls movement in the body.",
+    "Vata governs breathing, circulation, and nervous system activities.",
+    "When Vata is balanced it promotes creativity and flexibility."
+   ]
+  },
+
+  {
+   "tag":"pitta",
+   "patterns":[
+    "what is pitta",
+    "pitta dosha meaning",
+    "explain pitta dosha",
+    "tell me about pitta"
+   ],
+   "responses":[
+    "Pitta dosha represents fire and water elements and controls digestion and metabolism.",
+    "Pitta is responsible for body temperature, digestion, and energy production.",
+    "Balanced Pitta promotes intelligence and strong digestion."
+   ]
+  },
+
+  {
+   "tag":"kapha",
+   "patterns":[
+    "what is kapha",
+    "kapha dosha meaning",
+    "explain kapha dosha",
+    "tell me about kapha"
+   ],
+   "responses":[
+    "Kapha dosha represents earth and water elements and provides stability and strength.",
+    "Kapha supports body structure, lubrication of joints, and immunity.",
+    "Balanced Kapha promotes calmness and strong immunity."
+   ]
+  },
+
+  {
+   "tag":"ashwagandha",
+   "patterns":[
+    "what is ashwagandha",
+    "benefits of ashwagandha",
+    "why use ashwagandha",
+    "ashwagandha uses"
+   ],
+   "responses":[
+    "Ashwagandha is an Ayurvedic herb used to reduce stress and improve energy.",
+    "Ashwagandha supports immunity, reduces anxiety, and improves strength.",
+    "It is commonly used as a natural adaptogen to help the body manage stress."
+   ]
+  },
+
+  {
+   "tag":"turmeric",
+   "patterns":[
+    "benefits of turmeric",
+    "turmeric uses",
+    "what is turmeric used for",
+    "why turmeric is good"
+   ],
+   "responses":[
+    "Turmeric is widely used in Ayurveda for reducing inflammation and improving immunity.",
+    "Turmeric helps improve digestion and supports joint health.",
+    "Curcumin in turmeric has powerful anti-inflammatory properties."
+   ]
+  },
+
+  {
+   "tag":"tulsi",
+   "patterns":[
+    "benefits of tulsi",
+    "what is tulsi used for",
+    "holy basil benefits",
+    "tulsi uses"
+   ],
+   "responses":[
+    "Tulsi is known for improving immunity and treating cough and cold.",
+    "Tulsi helps reduce stress and supports respiratory health.",
+    "Tulsi tea is commonly used to boost immunity."
+   ]
+  },
+
+  {
+   "tag":"neem",
+   "patterns":[
+    "benefits of neem",
+    "what is neem used for",
+    "neem medicinal uses"
+   ],
+   "responses":[
+    "Neem is known for its antibacterial and blood purifying properties.",
+    "Neem is often used for skin problems and detoxification.",
+    "Neem helps fight infections and supports healthy skin."
+   ]
+  },
+
+  {
+   "tag":"amla",
+   "patterns":[
+    "benefits of amla",
+    "what is amla good for",
+    "indian gooseberry benefits"
+   ],
+   "responses":[
+    "Amla is rich in vitamin C and boosts immunity.",
+    "Amla helps improve digestion and supports healthy hair.",
+    "Amla is widely used in Ayurveda for rejuvenation."
+   ]
+  },
+
+  {
+   "tag":"triphala",
+   "patterns":[
+    "what is triphala",
+    "benefits of triphala",
+    "why use triphala"
+   ],
+   "responses":[
+    "Triphala is a combination of three fruits used for digestion and detoxification.",
+    "Triphala supports gut health and helps relieve constipation.",
+    "It is commonly used as a natural digestive tonic."
+   ]
+  },
+
+  {
+   "tag":"digestion",
+   "patterns":[
+    "how to improve digestion",
+    "ayurvedic remedy for digestion",
+    "poor digestion remedy"
+   ],
+   "responses":[
+    "Ginger, cumin, and fennel are commonly used in Ayurveda to improve digestion.",
+    "Warm water, herbal teas, and light meals help improve digestion.",
+    "Triphala and ginger are natural Ayurvedic remedies for digestion."
+   ]
+  },
+
+  {
+   "tag":"cold_cough",
+   "patterns":[
+    "remedy for cough",
+    "ayurvedic remedy for cold",
+    "natural cure for cough"
+   ],
+   "responses":[
+    "Tulsi tea with honey is a common Ayurvedic remedy for cough.",
+    "Ginger and turmeric milk may help relieve cold symptoms.",
+    "Steam inhalation with herbal oils can also help."
+   ]
+  },
+
+  {
+   "tag":"stress",
+   "patterns":[
+    "ayurvedic remedy for stress",
+    "how to reduce stress naturally",
+    "herbs for stress"
+   ],
+   "responses":[
+    "Ashwagandha and Brahmi are commonly used to reduce stress in Ayurveda.",
+    "Meditation and yoga are recommended for managing stress.",
+    "Warm oil massage is also used to calm the nervous system."
+   ]
+  },
+
+  {
+   "tag":"sleep",
+   "patterns":[
+    "how to improve sleep",
+    "ayurvedic remedy for insomnia",
+    "natural sleep remedies"
+   ],
+   "responses":[
+    "Drinking warm milk with turmeric before bed may help improve sleep.",
+    "Ashwagandha and Brahmi can support better sleep.",
+    "Maintaining a regular sleep routine is recommended in Ayurveda."
+   ]
+  },
+
+  {
+   "tag":"diet_vata",
+   "patterns":[
+    "diet for vata",
+    "what should vata eat",
+    "vata balancing foods"
+   ],
+   "responses":[
+    "Warm, cooked, and nourishing foods help balance Vata.",
+    "Foods like rice, milk, nuts, and warm soups are recommended for Vata."
+   ]
+  },
+
+  {
+   "tag":"diet_pitta",
+   "patterns":[
+    "diet for pitta",
+    "pitta balancing foods",
+    "what should pitta eat"
+   ],
+   "responses":[
+    "Cooling foods like cucumber, coconut, and leafy greens help balance Pitta.",
+    "Avoid spicy and fried foods if Pitta is high."
+   ]
+  },
+
+  {
+   "tag":"diet_kapha",
+   "patterns":[
+    "diet for kapha",
+    "kapha balancing foods",
+    "what should kapha eat"
+   ],
+   "responses":[
+    "Light and warm foods like vegetables, lentils, and spices help balance Kapha.",
+    "Avoid heavy and oily foods if Kapha is high."
+   ]
+  }
+
+ ]
+}
